@@ -1,9 +1,46 @@
 /* Add styling for your page here */
 
-.App {
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.bakeryItemsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  
+    max-width: 100%;
+  
+    gap: 30px;
+  }
+  
+.bakeryCart {
+    width: 33%;
+}
+  
+.BakeryItem {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 24px;
+    background-color: #a3a9da;
+
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
 
 }
 
-.BakeryItem {
-  
+.option-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    line-height: 0;
+}
+
+.BakeryImage {
+    max-width: 500px;
 }
