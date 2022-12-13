@@ -23,7 +23,7 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 24px;
     background-color: #a3a9da;
 
-    width: 500px;
+    width: 200px;
     height: auto;
     border-radius: 20px;
     color: white;
@@ -38,9 +38,9 @@
 }
 
 .title {
-    line-height: 0;
+    line-height: 1;
 }
 
 .BakeryImage {
-    max-width: 500px;
+    max-width: 75%;
 }
